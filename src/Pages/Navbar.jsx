@@ -72,7 +72,7 @@ const Navbar = () => {
             }}
             fontSize="20px"
           >
-            <Link onClick={() => handlePage(1)} to="home" smooth={true}>
+            <Link  class="nav-link home" onClick={() => handlePage(1)} to="home" smooth={true}>
               Home
             </Link>
           </Text>
@@ -89,7 +89,7 @@ const Navbar = () => {
             }}
             fontSize="20px"
           >
-            <Link onClick={() => handlePage(2)} to="about" smooth={true}>
+            <Link class="nav-link about" onClick={() => handlePage(2)} to="about" smooth={true}>
               About
             </Link>
           </Text>
@@ -106,8 +106,8 @@ const Navbar = () => {
             }}
             fontSize="20px"
           >
-            <Link onClick={() => handlePage(3)} to="work" smooth={true}>
-              Work
+            <Link class="nav-link projects" onClick={() => handlePage(3)} to="work" smooth={true}>
+              Projects
             </Link>
           </Text>
           <Text
@@ -123,7 +123,7 @@ const Navbar = () => {
             }}
             fontSize="20px"
           >
-            <Link onClick={() => handlePage(4)} to="skills" smooth={true}>
+            <Link class="nav-link skills" onClick={() => handlePage(4)} to="skills" smooth={true}>
               Skills
             </Link>
           </Text>
@@ -157,7 +157,7 @@ const Navbar = () => {
             }}
             fontSize="20px"
           >
-            <Link onClick={() => handlePage(6)} to="contact" smooth={true}>
+            <Link class="nav-link contact" onClick={() => handlePage(6)} to="contact" smooth={true}>
               Contact
             </Link>
           </Text>
@@ -175,7 +175,7 @@ const Navbar = () => {
             fontSize="20px"
           >
             <a style={{ textDecoration: "none" }} target="#" href="https://drive.google.com/file/d/1Mqjv2_xudvqjkn3l8LLpWBt9SU838yET/view?usp=sharing">
-              <Button
+              <Button class="nav-link resume"
                 _hover={{ colorScheme: "#d11243", variant: "outline" }}
                 h="35px"
                 w="140px"
