@@ -43,8 +43,8 @@ const Skills = () => {
                 h="160px"
               >
                 <VStack>
-                  <Image src={icon} w="100px" h="100px" />
-                  <Text color="BLACK">{text}</Text>
+                  <Image class="skills-card-img" src={icon} w="100px" h="100px" />
+                  <Text class="skills-card-name" color="BLACK">{text}</Text>
                 </VStack>
               </Flex>
             </>

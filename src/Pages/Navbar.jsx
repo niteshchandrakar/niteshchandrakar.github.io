@@ -106,7 +106,7 @@ const Navbar = () => {
             }}
             fontSize="20px"
           >
-            <Link class="nav-link projects" onClick={() => handlePage(3)} to="work" smooth={true}>
+            <Link class="nav-link projects" onClick={() => handlePage(3)} to="projects" smooth={true}>
               Projects
             </Link>
           </Text>
@@ -175,7 +175,9 @@ const Navbar = () => {
             fontSize="20px"
           >
             <a style={{ textDecoration: "none" }} target="#" href="https://drive.google.com/file/d/1Mqjv2_xudvqjkn3l8LLpWBt9SU838yET/view?usp=sharing">
-              <Text class="nav-link resume"
+              <Text 
+              id="resume-button-1"
+              class="nav-link resume"
                 _hover={{ colorScheme: "#d11243", variant: "outline" }}
                 h="35px"
                 w="140px"
