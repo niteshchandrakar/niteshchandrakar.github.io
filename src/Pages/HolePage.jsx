@@ -16,7 +16,7 @@ const HolePage = () => {
       <Box id="about" className="about section">
         <About />
       </Box>
-      <Box id="work">
+      <Box id="projects">
         <Work />
       </Box>
       <Box id="skills">

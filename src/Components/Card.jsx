@@ -3,14 +3,14 @@ import React from "react";
 
 const Card = ({ title, description, tech, links,img }) => {
   return (
-    <Box w={["350px","350px","350px" ,"400px", "400px"]} m="auto" rounded={10} bg={"#f1f1f1"} h="550px" p="10px 15px 50px 15px" boxShadow={"rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;"}>
+    <Box class="project-card"  w={["350px","350px","350px" ,"400px", "400px"]} m="auto" rounded={10} bg={"#f1f1f1"} h="550px" p="10px 15px 50px 15px" boxShadow={"rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;"}>
       <Stack>
         <Image rounded={10} h="220px" w="100%" src={img} />
         <Box color="black" textAlign="center">
-          <Heading>{title}</Heading>
+          <Heading class="project-title">{title}</Heading>
         </Box>
-        <Text color="#919497">{description}</Text>
-        <Text color={"#d11243"}>
+        <Text class="project-description" color="#919497">{description}</Text>
+        <Text class="project-tech-stack" color={"#d11243"}>
           Tech Stack:{" "}
           <Text color="black" as="span">
             {tech.join(" ,")}
@@ -24,7 +24,7 @@ const Card = ({ title, description, tech, links,img }) => {
               // _hover={{ bg: "#d11243", transition: "all 1s", }}
             >
               <Button  
-              
+              class="project-github-link"
               _hover={{
                 bg: "#d11243",
                 p: "10px",
@@ -43,7 +43,9 @@ const Card = ({ title, description, tech, links,img }) => {
               p="15px"
               // _hover={{ bg: "#d11243", transition: "all 1s" }}
             >
-                <Button  size="30px" color={"#"}
+                <Button
+                class="project-deployed-link"
+                size="30px" color={"#"}
                  _hover={{
                   bg: "#d11243",
                   p: "10px",
