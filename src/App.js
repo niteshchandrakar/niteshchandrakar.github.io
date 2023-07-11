@@ -9,6 +9,7 @@ function App() {
     <Box  w="100%" bg={"#d11243"}>
       <Navbar  />
      <HolePage />
+     {/* dhjhdsjhjdfh */}
     </Box>
   );
 }
