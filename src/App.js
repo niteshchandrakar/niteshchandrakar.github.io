@@ -1,11 +1,15 @@
-import logo from './logo.svg';
+
+import { Box } from '@chakra-ui/react';
 import './App.css';
+import HolePage from './Pages/HolePage';
+import Navbar from './Pages/Navbar';
 
 function App() {
   return (
-    <div className="App">
-      nitesh
-    </div>
+    <Box  w="100%" bg={"#d11243"}>
+      <Navbar />
+     <HolePage />
+    </Box>
   );
 }
 
