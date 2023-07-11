@@ -175,7 +175,7 @@ const Navbar = () => {
             fontSize="20px"
           >
             <a style={{ textDecoration: "none" }} target="#" href="https://drive.google.com/file/d/1Mqjv2_xudvqjkn3l8LLpWBt9SU838yET/view?usp=sharing">
-              <Button class="nav-link resume"
+              <Text class="nav-link resume"
                 _hover={{ colorScheme: "#d11243", variant: "outline" }}
                 h="35px"
                 w="140px"
@@ -187,8 +187,8 @@ const Navbar = () => {
                 color="#f1f1f1"
                 variant="solid"
               >
-                Resume
-              </Button>
+                RESUME
+              </Text>
             </a>
           </Text>
         </Flex>

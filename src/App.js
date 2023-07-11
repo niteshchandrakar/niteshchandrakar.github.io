@@ -7,7 +7,7 @@ import Navbar from './Pages/Navbar';
 function App() {
   return (
     <Box  w="100%" bg={"#d11243"}>
-      <Navbar />
+      <Navbar  />
      <HolePage />
     </Box>
   );

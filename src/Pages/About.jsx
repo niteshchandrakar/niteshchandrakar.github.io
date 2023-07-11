@@ -31,10 +31,10 @@ const About = () => {
           <Stack w="450px" h="600px">
             <UnorderedList color="#919497" fontSize={20}>
               <ListItem mb="20px">
-                Hello , I am Aarif and I enjoy doing coding{" "}
+                Hello , I am Nitesh and I enjoy doing coding{" "}
               </ListItem>
               <ListItem mb="20px">
-                An aspiring Full Stack Developer with 800+ hours of coding
+                An aspiring Full Stack Developer with 1200+ hours of coding
                 experience in JavaScript.
               </ListItem>
               <ListItem mb="20px">
@@ -45,7 +45,7 @@ const About = () => {
               <ListItem mb="20px">
                 Fast Forwarding to today, I built a number of web applications and 3 major projects. learned a great deal about teamwork, leadership, and communication.
               </ListItem>
-              <ListItem mb="20px">My Interest in Travelling</ListItem>
+              <ListItem mb="20px">My Interest in Cricket</ListItem>
             </UnorderedList>
           </Stack>
         </Flex>

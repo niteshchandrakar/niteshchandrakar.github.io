@@ -5,7 +5,7 @@ import './responsive.css';
 
 const Home = () => {
   return (
-    <Flex h="800px" bg={"#f1f1f1"} justifyContent="space-around">
+    <Flex h="500px" bg={"#f1f1f1"} justifyContent="space-around">
       <Flex w={["100%", "100%", "100%", "40%", "40%"]} justifyContent="center" alignItems="center">
         <Stack textAlign={["center", "center", "center", "", ""]} spacing={1} w="100%" h="400px">
           <Box mt="70px">
@@ -14,13 +14,13 @@ const Home = () => {
               Hello , my name is
             </Text>
           </Box>
-          <Box mt="-95px">
+          <Box mt="-30px">
             {" "}
             <Text id="user-detail-name" color="black" fontSize={["50px", "60px", "70px", "100px", "100px"]} fontWeight="bold" fontFamily="monospace">
               Nitesh
             </Text>
           </Box>
-          <Box mt="-95px">
+          <Box mt="-30px">
             {" "}
             <Text
               fontSize={["30px", "30px", "30px", "35px", "35px"]}
@@ -67,7 +67,7 @@ const Home = () => {
         </Stack>
       </Flex>
       <Flex display={["none", "none", "none", "flex", "flex"]} w="30%" justifyContent="center" alignItems="center">
-        <Box w="70%" h="295px" rounded="50%" bg="#f1f1f1" overflow="hidden" boxShadow={"rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;"}>
+        <Box  h="295px" w="295px" rounded="100%" bg="#f1f1f1" overflow="hidden" boxShadow={"rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;"}>
           <Image src="https://avatars.githubusercontent.com/u/115460375?s=400&u=3cc3c7a9f1925c44fe5ae898885ed292f9481ac4&v=4" />
         </Box>
       </Flex>
