@@ -74,8 +74,12 @@ const Navbar = () => {
           >
             <Link  class="nav-link home" onClick={() => handlePage(1)} to="home" smooth={true}>
               Home
+
+
             </Link>
           </Text>
+
+          {/* gghjdsghjfghjdsgds */}
           <Text
             color={page === 2 ? "#d11243" : ""}
             textDecoration={page === 2 ? "underline" : ""}

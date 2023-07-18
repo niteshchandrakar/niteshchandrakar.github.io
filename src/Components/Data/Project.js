@@ -30,6 +30,16 @@ export const project = [
 
 
     },
+    {
+        id: 3,
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRl8xFytGODn2dSaocMxQRiesw_IIk4i5MUIVh9oQDpQ&s",
+        title: "To be announced",
+        description: "Coming soon",
+        tech: ["HTML", "CSS", "JAVASCRIPT"],
+        links: ["https://github.com/niteshchandrakar/astute-line-8992", "https://stellular-cendol-ad797d.netlify.app/"]
+
+
+    },
 
 ]
 

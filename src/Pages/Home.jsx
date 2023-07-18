@@ -8,7 +8,7 @@ const Home = () => {
     <Flex  display={["grid", "grid", "grid", "flex", "flex"]} h="500px" bg={"#f1f1f1"} justifyContent="space-around">
       <Flex mt="80px"  justifyContent="center" alignItems="center">
         <Box  w="60%" rounded="100%" bg="#f1f1f1" overflow="hidden" boxShadow={"rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;"}>
-          <Image src="https://avatars.githubusercontent.com/u/115460375?s=400&u=3cc3c7a9f1925c44fe5ae898885ed292f9481ac4&v=4" />
+          <Image class="home-img" src="https://avatars.githubusercontent.com/u/115460375?s=400&u=3cc3c7a9f1925c44fe5ae898885ed292f9481ac4&v=4" />
         </Box>
       </Flex>
 
@@ -35,7 +35,7 @@ const Home = () => {
               color={"#d11243"}
             >
               <Typewriter
-                id="user-detail-intro"
+                
                 onInit={(typewriter) => {
                   typewriter
                     .typeString("I'm a Full Stack Developer.")

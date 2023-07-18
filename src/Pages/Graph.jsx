@@ -15,7 +15,7 @@ import Github from "react-github-calendar"
 
 const Graph = () => {
   return (
-    <Box py="40px" m="auto" bg={"#ecf0f3"} h="auto">
+    <Box  py="40px" m="auto" bg={"#ecf0f3"} h="auto">
       <Flex py="40px" bg={"#ecf0f3"} justifyContent="center">
         <Heading fontSize={["20px","30px","30px"]} color={"#d11243"} as="span">
           Github Graph & Github Statistics
