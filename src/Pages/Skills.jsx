@@ -34,6 +34,7 @@ const Skills = () => {
           return (
             <>
               <Flex key={text}
+               class="skills-card"
                 _hover={{ boxShadow:"rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;", transition: "all 0.9s" }}
                 alignItems="center"
                 bg={"#f1f1f1"}

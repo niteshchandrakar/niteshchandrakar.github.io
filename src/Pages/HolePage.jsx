@@ -1,5 +1,6 @@
 import React from "react";
 import { Box } from "@chakra-ui/react";
+
 import Home from "./Home";
 import About from "./About";
 import Skills from "./Skills";
@@ -16,10 +17,10 @@ const HolePage = () => {
       <Box id="about" className="about section">
         <About />
       </Box>
-      <Box id="projects">
+      <Box id="projects" class="project-card">
         <Work />
       </Box>
-      <Box id="skills">
+      <Box id="skills" class="skills-card">
         <Skills />
       </Box>
       <Box id="graph">

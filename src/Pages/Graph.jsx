@@ -25,12 +25,12 @@ const Graph = () => {
       <Flex align={"center"} justify="center"   gap={5} flexDirection="column"  >
         <VStack align={"center"} justify="center">
          <Box >
-         <Text id="github-streak-stats" align="center"><Image w={[320,500,700]} py={2} m="auto" align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=niteshchandrakar&theme=default" alt="niteshchandrakar" /></Text>
+         <p id="github-streak-stats" align="center"><Image w={[320,500,700]} py={2} m="auto" align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=niteshchandrakar&theme=default" alt="niteshchandrakar" /></p>
          </Box>
 
-          <Text id="github-stats-card" align="center"><Image w={[320,500,700]} py={2} m="auto" src="https://github-readme-stats.vercel.app/api?username=niteshchandrakar&theme=default&show_icons=true&locale=en" alt="niteshchandrakar" /></Text>
+          <p id="github-stats-card" align="center"><Image w={[320,500,700]} py={2} m="auto" src="https://github-readme-stats.vercel.app/api?username=niteshchandrakar&theme=default&show_icons=true&locale=en" alt="niteshchandrakar" /></p>
 
-          <Text id="github-top-langs" align="center"><Image w={[320,500,700]} py={2} m="auto" src="https://github-readme-stats.vercel.app/api/top-langs?username=niteshchandrakar&show_icons=true&locale=en&layout=compact" alt="niteshchandrakar" /></Text>
+          <p id="github-top-langs" align="center"><Image w={[320,500,700]} py={2} m="auto" src="https://github-readme-stats.vercel.app/api/top-langs?username=niteshchandrakar&show_icons=true&locale=en&layout=compact" alt="niteshchandrakar" /></p>
         </VStack>
         <Box  px={5}>
           <Github class="react-activity-calendar" username="niteshchandrakar" color={"#d11243"} blockSize={15} blockMargin={5} fontSize={16}/>
