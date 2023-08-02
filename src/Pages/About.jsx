@@ -24,7 +24,7 @@ const About = () => {
       <Flex h="500px" justifyContent="space-around" bg={"#ecf0f3"}>
         <Flex  display={["none" , "none" , "none" ,"flex" ,"flex"]} w="50%" justifyContent="center">
           <Box w="100%" h="400px">
-            <Image  w="650px" h="400px" ml="5%" src="https://wallpaperaccess.com/full/2945080.jpg" />
+            <Image  w="650px" h="400px" ml="5%" src="https://c0.wallpaperflare.com/preview/648/404/42/shade-developer-dev-code.jpg" />
           </Box>
         </Flex>
         <Flex   w={["100%" , "100%", "100%" , "50%","50%"]} justifyContent="center" alignItems="center">

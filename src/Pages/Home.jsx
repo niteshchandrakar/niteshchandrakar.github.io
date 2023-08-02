@@ -45,7 +45,7 @@ const Home = () => {
               />
             </Text>
           </Box>
-          <a style={{ textDecoration: "none" }} target="#" href="https://drive.google.com/file/d/1Mqjv2_xudvqjkn3l8LLpWBt9SU838yET/view?usp=sharing">
+          <a style={{ textDecoration: "none" }} target="#" href="https://drive.google.com/file/d/1ZzKXJHH23YM1NZyarXceAFvhVFTbgqI_/view?usp=sharing">
             <Button
               id="resume-button-2"
               _hover={{

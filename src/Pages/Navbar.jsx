@@ -79,7 +79,7 @@ const Navbar = () => {
             </Link>
           </Text>
 
-          {/* gghjdsghjfghjdsgds */}
+         
           <Text
             color={page === 2 ? "#d11243" : ""}
             textDecoration={page === 2 ? "underline" : ""}
@@ -178,7 +178,7 @@ const Navbar = () => {
             }}
             fontSize="20px"
           >
-            <a style={{ textDecoration: "none" }} target="#" href="https://drive.google.com/file/d/1Mqjv2_xudvqjkn3l8LLpWBt9SU838yET/view?usp=sharing">
+            <a style={{ textDecoration: "none" }} target="#" href="https://drive.google.com/file/d/1ZzKXJHH23YM1NZyarXceAFvhVFTbgqI_/view?usp=sharing">
               <Text 
               id="resume-button-1"
               class="nav-link resume"
