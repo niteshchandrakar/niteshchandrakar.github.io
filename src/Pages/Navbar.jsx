@@ -38,15 +38,15 @@ const Navbar = () => {
       >
         <Flex
           ml="10px"
-          w={["100%", "100%", "100%", "10%", "10%"]}
+          w={["100%", "100%", "100%", "20%", "20%"]}
           textAlign="center"
           justifyContent="center"
           alignItems="center"
         >
-          <Text marginLeft="20px" id="icon" fontSize="40px">
-            Portfo
+          <Text marginLeft="20px" id="icon" fontSize="30px">
+            Nitesh
             <Text color={"#d11243"} as="span">
-              lio
+              Chandrakar
             </Text>
           </Text>
         </Flex>
