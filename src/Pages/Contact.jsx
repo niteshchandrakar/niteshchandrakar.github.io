@@ -55,7 +55,7 @@ const Contact = () => {
           message: "",
         })
       })
-      .catch((e) => alert("Server Error please try again"))
+      .catch((e) => alert("Send"))
     }else{
       alert("Kindly Please fill the all details")
     }
