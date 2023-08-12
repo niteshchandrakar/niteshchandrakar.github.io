@@ -27,7 +27,7 @@ const Navbar = () => {
       <Flex
         position="fixed"
         h="75px"
-        bg={"#ecf0f3"}
+        bg={"black"}
         justifyContent="space-between"
         w="100%"
         color="gray.500"

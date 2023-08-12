@@ -5,7 +5,7 @@ import './responsive.css';
 
 const Home = () => {
   return (
-    <Flex  display={["grid", "grid", "grid", "flex", "flex"]} h="500px" bg={"#f1f1f1"} justifyContent="space-around">
+    <Flex  display={["grid", "grid", "grid", "flex", "flex"]} h="500px"  justifyContent="space-around">
       <Flex mt="80px"  justifyContent="center" alignItems="center">
         <Box  w="60%" rounded="100%" bg="#f1f1f1" overflow="hidden" boxShadow={"rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;"}>
           <Image class="home-img" src="https://avatars.githubusercontent.com/u/115460375?s=400&u=3cc3c7a9f1925c44fe5ae898885ed292f9481ac4&v=4" />
@@ -16,13 +16,13 @@ const Home = () => {
         <Stack textAlign={["center", "center", "center", "", ""]} spacing={1} w="100%"  >
           <Box >
             {" "}
-            <Text color="black" fontSize={["15px", "20px", "25px", "35px", "35px"]} fontWeight="bold" fontFamily="sans-sarif">
+            <Text color="white" fontSize={["15px", "20px", "25px", "35px", "35px"]} fontWeight="bold" fontFamily="sans-sarif">
               Hello , my name is
             </Text>
           </Box>
           <Box mt="-20px">
             {" "}
-            <Text id="user-detail-name" color="black" fontSize={["50px", "60px", "70px", "100px", "100px"]} fontWeight="bold" fontFamily="monospace">
+            <Text id="user-detail-name" color="white" fontSize={["50px", "60px", "70px", "100px", "100px"]} fontWeight="bold" fontFamily="monospace">
               Nitesh
             </Text>
           </Box>

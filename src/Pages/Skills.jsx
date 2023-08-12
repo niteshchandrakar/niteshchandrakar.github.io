@@ -14,7 +14,7 @@ import './responsive.css';
 
 const Skills = () => {
   return (
-    <Box m="auto" bg={"#f1f1f1"} h="auto">
+    <Box m="auto"  h="auto">
       <Flex py="40px"  justifyContent="center">
         <Heading fontSize={["20px","30px","30px"]} color={"#d11243"}>
           My Technical Skills
@@ -28,7 +28,7 @@ const Skills = () => {
         margin="auto"
         gap={6}
         h="auto"
-        bg={"#f1f1f1"}
+        
       >
         {skills.map(({icon,text}) => {
           return (

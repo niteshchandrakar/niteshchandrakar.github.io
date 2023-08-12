@@ -8,7 +8,7 @@ import './responsive.css';
 const Work = () => {
   const arr = new Array(10).fill(0)
   return (
-    <Box    h="auto" bg={"#ecf0f3"} pb="40px">
+    <Box    h="auto"  pb="40px">
       <Box py="40px" textAlign="center">
           <Heading color={"#d11243"} fontSize={["20px","30px","30px"]}  as="span">
           My Projects

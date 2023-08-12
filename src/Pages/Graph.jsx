@@ -15,8 +15,8 @@ import Github from "react-github-calendar"
 
 const Graph = () => {
   return (
-    <Box  py="40px" m="auto" bg={"#ecf0f3"} h="auto">
-      <Flex py="40px" bg={"#ecf0f3"} justifyContent="center">
+    <Box  py="40px" m="auto"  h="auto">
+      <Flex py="40px"  justifyContent="center">
         <Heading fontSize={["20px","30px","30px"]} color={"#d11243"} as="span">
           Github Graph & Github Statistics
         </Heading>
@@ -32,7 +32,7 @@ const Graph = () => {
 
           <p id="github-top-langs" align="center"><Image w={[320,500,700]} py={2} m="auto" src="https://github-readme-stats.vercel.app/api/top-langs?username=niteshchandrakar&show_icons=true&locale=en&layout=compact" alt="niteshchandrakar" /></p>
         </VStack>
-        <Box  px={5}>
+        <Box bg={"white"} borderRadius={"5px"} px={5}>
           <Github class="react-activity-calendar" username="niteshchandrakar" color={"#d11243"} blockSize={15} blockMargin={5} fontSize={16}/>
         </Box>
       </Flex>

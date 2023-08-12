@@ -13,15 +13,15 @@ import './responsive.css';
 
 const About = () => {
   return (
-    <Box bg={"#ecf0f3"} >
-      <Flex pb="40px"  bg={"#ecf0f3"} justifyContent="center">
+    <Box  >
+      <Flex pb="40px"   justifyContent="center">
 
           
           <Heading py="40px" fontSize={["20px","30px","30px"]} color={"#d11243"} as="span">
           All About me
         </Heading>
       </Flex>
-      <Flex h="500px" justifyContent="space-around" bg={"#ecf0f3"}>
+      <Flex h="500px" justifyContent="space-around" >
         <Flex  display={["none" , "none" , "none" ,"flex" ,"flex"]} w="50%" justifyContent="center">
           <Box w="100%" h="400px">
             <Image  w="650px" h="400px" ml="5%" src="https://c0.wallpaperflare.com/preview/648/404/42/shade-developer-dev-code.jpg" />

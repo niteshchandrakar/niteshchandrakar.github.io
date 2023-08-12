@@ -10,6 +10,7 @@ import {
   Textarea,
   VStack,
   Toast,
+  color,
 } from "@chakra-ui/react";
 import React, { useState } from "react";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
@@ -44,7 +45,7 @@ const Contact = () => {
         msg:message
       }
 
-      axios.post("https://my-json-sever-api-masai.herokuapp.com/data" , payload)
+      axios.post("" , payload)
       .then((r) => alert("Send"))
       .then(() => {
         setUser({
@@ -68,13 +69,13 @@ const Contact = () => {
 
   return (
     <Box>
-      <Flex py="40px" bg={"#f1f1f1"} justifyContent="center">   
+      <Flex py="40px"  justifyContent="center">   
           <Heading fontSize={["20px","30px","30px"]} color={"#d11243"} as="span">
           Chat And Connect With Me
   
         </Heading>
       </Flex>
-      <Flex h="600px"  bg={"#f1f1f1"} justifyContent="space-around">
+      <Flex h="600px"   justifyContent="space-around">
         <Flex display={["none" , "none" , "none" ,"flex" ,"flex"]} w="30%" justifyContent={"center"} alignItems="center" bg="">
           <Box > 
             <a href="">
@@ -117,8 +118,9 @@ const Contact = () => {
                 rounded={5}
                 leftIcon={<BsGithub />}
                 fontSize="19px"
-                colorScheme='blackAlpha' 
+               colorScheme="whiteAlpha"
                 variant='outline'
+                _hover={{color:"black",backgroundColor:"white"}}
               >
                 Github
               </Button>
@@ -153,6 +155,7 @@ const Contact = () => {
             rounded={10}
             _active={{ border: "1px solid #d11243" }}
             placeholder="Enter Full Name"
+            color={"white"}
           />
           <Input
             id="email"
@@ -168,8 +171,10 @@ const Contact = () => {
             rounded={10}
             _active={{ border: "1px solid #d11243" }}
             placeholder="Enter Email"
+            color={"white"}
           />
           <Input
+          color={"white"}
            type="number"
             pl="10px"
             w="88%"
@@ -184,6 +189,7 @@ const Contact = () => {
             placeholder="Enter Mobile Number"
           />
           <Textarea
+          color={"white"}
             pl="10px"
             w="88%"
             h="100px"
