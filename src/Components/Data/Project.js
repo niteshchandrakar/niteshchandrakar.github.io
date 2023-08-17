@@ -2,7 +2,7 @@
 export const project = [
     {
         id: 3,
-        img: "https://github.com/niteshchandrakar/niteshchandrakar.github.io/blob/master/src/Images/money_mentor.gif",
+        img: "https://github.com/niteshchandrakar/niteshchandrakar.github.io/blob/master/src/Images/money_mentor.gif?raw=true",
         title: "MoneyMentor",
         description: "A website providing loan information and connecting users with loan providers, inspired by paisabazar loan information and loan provider website.",
         tech: ["HTML", "CSS", "Javascript","React","Redux","Chakra-Ui"],
@@ -12,7 +12,7 @@ export const project = [
     },
     {
         id: 0,
-        img: "https://github.com/niteshchandrakar/niteshchandrakar.github.io/blob/master/src/Images/healthkart.gif",
+        img: "https://github.com/niteshchandrakar/niteshchandrakar.github.io/blob/master/src/Images/healthkart.gif?raw=true",
         title: "HealthMart",
         description: "A website similar to HealthKart, offering an e-commerce platform for health supplements, body-building products, and proteins.",
         tech: ["HTML", "CSS", "Javascript"],
@@ -22,7 +22,7 @@ export const project = [
     },
     {
         id: 1,
-        img: "https://github.com/niteshchandrakar/niteshchandrakar.github.io/blob/master/src/Images/EduTute.gif",
+        img: "https://github.com/niteshchandrakar/niteshchandrakar.github.io/blob/master/src/Images/EduTute.gif?raw=true",
         title: "Edutute",
         description: "A website similar to Student Dashboard that replicates the functionality of Calendly, a popular online scheduling platform",
         tech: ["HTML", "CSS", "Javascript", "Chakra-Ui", "React"],
