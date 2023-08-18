@@ -58,10 +58,10 @@ const skills = [
         icon:"https://img.icons8.com/nolan/64/api-settings.png",
         text:"REST API"
     },
-    {
-        icon:"https://devashishsaurabhportfolio.netlify.app/assets/img/express.png",
-        text:"EXPRESS"
-    },
+    // {
+    //     icon:"https://devashishsaurabhportfolio.netlify.app/assets/img/express.png",
+    //     text:"EXPRESS"
+    // },
     {
         icon:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
         text:"NODE JS"
