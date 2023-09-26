@@ -7,7 +7,7 @@ const Card = ({ title, description, tech, links, img }) => {
       <Stack>
         <Image rounded={10} h="220px" w="100%" src={img} />
         <Box color="black" textAlign="center">
-          <Heading>{title}</Heading>
+          <Heading className="project-title">{title}</Heading>
         </Box>
         <Text class="project-description" color="#919497">{description}</Text>
         <Text class="project-tech-stack" color={"#d11243"}>
@@ -25,6 +25,7 @@ const Card = ({ title, description, tech, links, img }) => {
 
             >
               <Button size="30px"
+              className="project-github-link"
                 _hover={{
                   bg: "#d11243",
                   p: "10px",
@@ -38,12 +39,13 @@ const Card = ({ title, description, tech, links, img }) => {
           </a>
           <a style={{ color: "#d11243" }} href={links[1]} target="#">
             <Box
-             class="project-deployed-link"
+             
               rounded="10%"
               p="15px"
 
             >
               <Button
+              className="project-deployed-link"
                 _hover={{
                   bg: "#d11243",
                   p: "10px",
