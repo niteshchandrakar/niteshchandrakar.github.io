@@ -34,7 +34,7 @@ const Skills = () => {
           return (
             <>
               <Flex key={text}
-               class="skills-card"
+               className="skills-card"
                 _hover={{ boxShadow:"rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;", transition: "all 0.9s" }}
                 alignItems="center"
                 bg={"#f1f1f1"}
@@ -44,8 +44,8 @@ const Skills = () => {
                 h="160px"
               >
                 <VStack>
-                  <Image class="skills-card-img" src={icon} w="100px" h="100px" />
-                  <Text class="skills-card-name" color="BLACK">{text}</Text>
+                  <Image className="skills-card-img" src={icon} w="100px" h="100px" />
+                  <Text className="skills-card-name" color="BLACK">{text}</Text>
                 </VStack>
               </Flex>
             </>
