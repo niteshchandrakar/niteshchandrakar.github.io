@@ -2,8 +2,18 @@ import { Box, Flex, Heading, Stack, Button, Text, Image } from "@chakra-ui/react
 import React from "react";
 import Typewriter from "typewriter-effect";
 import './responsive.css';
+import resume from "../Images/Nitesh_Chandrakar_Resume.pdf"
 
 const Home = () => {
+  const handleDownload = () => {
+    // Create a temporary <a> element to trigger the download
+    const link = document.createElement('a');
+    link.href = resume
+    link.download = resume
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
   return (
     <Flex  display={["grid", "grid", "grid", "flex", "flex"]} h="500px"  justifyContent="space-around">
       <Flex mt="80px"  justifyContent="center" alignItems="center">
@@ -45,8 +55,9 @@ const Home = () => {
               />
             </Text>
           </Box>
-          <a style={{ textDecoration: "none" }} target="#" href="https://drive.google.com/file/d/1ZzKXJHH23YM1NZyarXceAFvhVFTbgqI_/view?usp=sharing">
+          <a style={{ textDecoration: "none" }}>
             <Button
+            onClick={handleDownload}
               id="resume-button-2"
               _hover={{
                 h: "60px",
