@@ -55,7 +55,15 @@ const Home = () => {
               />
             </Text>
           </Box>
-          
+          <a style={{ textDecoration: "none" }}
+                  id="resume-link-2"
+                  href="Nitesh_Chandrakar_Resume.pdf"
+                  target="_blank"
+                  download = "Nitesh_Chandrakar_Resume.pdf"
+                 
+              
+              
+              >
             <Button
              onClick={()=> window.open(`https://drive.google.com/file/d/1ZzKXJHH23YM1NZyarXceAFvhVFTbgqI_/view?usp=sharing`)}
               id="resume-button-2"
@@ -79,19 +87,11 @@ const Home = () => {
               color="#f1f1f1"
               variant="solid"
             >
-              <a style={{ textDecoration: "none" }}
-                  id="resume-link-2"
-                  href="Nitesh_Chandrakar_Resume.pdf"
-                  target="_blank"
-                  download = "Nitesh_Chandrakar_Resume.pdf"
-                 
-              
-              
-              >
+          
               Resume
-              </a>
+             
             </Button>
-         
+            </a>
         </Stack>
       </Flex>
 
