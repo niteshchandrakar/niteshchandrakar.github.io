@@ -2,22 +2,11 @@ import { Box, Button, Flex, textDecoration } from "@chakra-ui/react";
 import React, { useState } from "react";
 import { Link } from "react-scroll";
 import { Text } from "@chakra-ui/react";
-import resume from "../Images/Nitesh_Chandrakar_Resume.pdf"
 
 const Navbar = () => {
   const [page, setPage] = useState(1);
-  // const handleResumeDownload = () => {
-  //   window.open("", "_blank", "noopener", "noreferrer")
-  // }
-  const handleDownload = () => {
-    // Create a temporary <a> element to trigger the download
-    const link = document.createElement('a');
-    link.href = resume
-    link.download = resume
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  };
+ 
+
   const handlePage = (id) => {
     if (id === 1) {
       setPage(id);
@@ -187,9 +176,14 @@ const Navbar = () => {
             }}
             fontSize="20px"
           >
-            <a style={{ textDecoration: "none" }} onClick={handleDownload} >
+            <a style={{ textDecoration: "none" }} 
+             href="Nitesh_Chandrakar_Resume.pdf"
+             target="_blank"
+             download = "Nitesh_Chandrakar_Resume.pdf"
+            >
               <Text 
                
+               onClick={()=> window.open(`https://drive.google.com/file/d/1ZzKXJHH23YM1NZyarXceAFvhVFTbgqI_/view?usp=sharing`)}
               id="resume-button-1"
               class="nav-link resume"
                 _hover={{ colorScheme: "#d11243", variant: "outline" }}
