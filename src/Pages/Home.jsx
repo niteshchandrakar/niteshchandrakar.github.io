@@ -5,7 +5,7 @@ import './responsive.css';
 
 
 const Home = () => {
-
+//done
   return (
     <Flex  display={["grid", "grid", "grid", "flex", "flex"]} h="500px"  justifyContent="space-around">
       <Flex mt="80px"  justifyContent="center" alignItems="center">
