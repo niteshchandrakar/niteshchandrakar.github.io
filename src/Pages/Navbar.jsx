@@ -41,7 +41,7 @@ const Navbar = () => {
           justifyContent="center"
           alignItems="center"
         >
-          <Text marginLeft="20px" id="icon" fontSize="30px">
+          <Text color={"white"} marginLeft="20px" id="icon" fontSize="30px">
             Nitesh
             <Text color={"#d11243"} as="span">
               Chandrakar
@@ -58,7 +58,7 @@ const Navbar = () => {
           fontFamily="serif"
         >
           <Text
-            color={page === 1 ? "#d11243" : ""}
+            color={page === 1 ? "#d11243" : "white"}
             textDecoration={page === 1 ? "underline" : ""}
             _hover={{
               bg: "#d11243",
@@ -79,7 +79,7 @@ const Navbar = () => {
 
          
           <Text
-            color={page === 2 ? "#d11243" : ""}
+            color={page === 2 ? "#d11243" : "white"}
             textDecoration={page === 2 ? "underline" : ""}
             _hover={{
               bg: "#d11243",
@@ -96,7 +96,7 @@ const Navbar = () => {
             </Link>
           </Text>
           <Text
-            color={page === 3 ? "#d11243" : ""}
+            color={page === 3 ? "#d11243" : "white"}
             textDecoration={page === 3 ? "underline" : ""}
             _hover={{
               bg: "#d11243",
@@ -113,7 +113,7 @@ const Navbar = () => {
             </Link>
           </Text>
           <Text
-            color={page === 4 ? "#d11243" : ""}
+            color={page === 4 ? "#d11243" : "white"}
             textDecoration={page === 4 ? "underline" : ""}
             _hover={{
               bg: "#d11243",
@@ -130,7 +130,7 @@ const Navbar = () => {
             </Link>
           </Text>
           <Text
-            color={page === 5 ? "#d11243" : ""}
+            color={page === 5 ? "#d11243" : "white"}
             textDecoration={page === 5 ? "underline" : ""}
             _hover={{
               bg: "#d11243",
@@ -147,7 +147,7 @@ const Navbar = () => {
             </Link>
           </Text>
           <Text
-            color={page === 6 ? "#d11243" : ""}
+            color={page === 6 ? "#d11243" : "white"}
             textDecoration={page === 6 ? "underline" : ""}
             _hover={{
               bg: "#d11243",
@@ -164,7 +164,7 @@ const Navbar = () => {
             </Link>
           </Text>
           <Text
-            color={page === 6 ? "#d11243" : ""}
+            color={page === 6 ? "#d11243" : "white"}
             textDecoration={page === 6 ? "underline" : ""}
             _hover={{
               bg: "#d11243",

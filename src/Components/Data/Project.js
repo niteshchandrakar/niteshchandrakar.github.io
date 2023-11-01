@@ -40,6 +40,27 @@ export const project = [
 
 
     },
+  
+    {
+        id: 4,
+        img: "CredScore.gif",
+        title: "CredScore",
+        description: "Welcome to our CredScore! We are your one-stop destination for all your cibil score checking. Our platform offers a wide range of loan options, tailored to suit individual requirements.",
+        tech: ["HTML", "CSS", "Javascript","React","Redux","Chakra-Ui","MongoDb","Express","Node"],
+        links: ["https://github.com/niteshchandrakar/sleek-circle-8356", "https://653e29bceb148858019bbdba--deluxe-salmiakki-803e52.netlify.app/"]
+
+
+    },
+    {
+        id: 5,
+        img: "DonateForChange.gif",
+        title: "DonateForChange",
+        description: "There’s a part of every one of us that dreams of a better world. That spark of inspiration to help a person, fix a neighborhood, or even change a nation.",
+        tech: ["HTML", "CSS", "Javascript","React","Redux","Chakra-Ui"],
+        links: ["https://github.com/niteshchandrakar/bouncy-invention-713", "https://donateforchanges.netlify.app/"]
+
+
+    },
     
 
 ]

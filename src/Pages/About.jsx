@@ -29,7 +29,7 @@ const About = () => {
         </Flex>
         <Flex   w={["100%" , "100%", "100%" , "50%","50%"]} justifyContent="center" alignItems="center">
           <Stack w="450px" h="600px">
-            <UnorderedList id="user-detail-intro" color="#919497" fontSize={20}>
+            <UnorderedList id="user-detail-intro" color="white" fontSize={20}>
               <ListItem mb="20px">
                 Hello , I am Nitesh and I enjoy doing coding{" "}
               </ListItem>
