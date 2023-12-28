@@ -16,7 +16,7 @@ export const project = [
         title: "HealthMart",
         description: "A website similar to HealthKart, offering an e-commerce platform for health supplements, body-building products, and proteins.",
         tech: ["HTML", "CSS", "Javascript"],
-        links: ["https://github.com/niteshchandrakar/fond-channel-7524", "https://peaceful-blancmange-43db0c.netlify.app/"]
+        links: ["https://github.com/niteshchandrakar/fond-channel-7524", "https://healthkartt.netlify.app/"]
 
 
     },
@@ -47,7 +47,7 @@ export const project = [
         title: "CredScore",
         description: "Welcome to our CredScore! We are your one-stop destination for all your cibil score checking. Our platform offers a wide range of loan options, tailored to suit individual requirements.",
         tech: ["HTML", "CSS", "Javascript","React","Redux","Chakra-Ui","MongoDb","Express","Node"],
-        links: ["https://github.com/niteshchandrakar/sleek-circle-8356", "https://653e29bceb148858019bbdba--deluxe-salmiakki-803e52.netlify.app/"]
+        links: ["https://github.com/niteshchandrakar/sleek-circle-8356", "https://credscore.netlify.app/"]
 
 
     },
