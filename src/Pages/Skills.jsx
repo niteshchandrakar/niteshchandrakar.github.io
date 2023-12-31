@@ -27,7 +27,7 @@ const Skills = () => {
         w="auto"
         p="20px"
         margin="auto"
-        gap={6}
+        gap={5}
         h="auto"
         
       >

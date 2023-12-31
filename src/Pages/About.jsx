@@ -14,17 +14,17 @@ import './responsive.css';
 const About = () => {
   return (
     <Box  >
-      <Flex pb="40px"   justifyContent="center">
+      <Flex pb="30px"   justifyContent="center">
 
           
-          <Heading py="40px" fontSize={["20px","30px","30px"]} color={"#d11243"} as="span">
+          <Heading  py="40px" fontSize={["20px","30px","30px"]} color={"#d11243"} as="span">
           All About me
         </Heading>
       </Flex>
       <Flex h="500px" justifyContent="space-around" >
         <Flex  display={["none" , "none" , "none" ,"flex" ,"flex"]} w="50%" justifyContent="center">
           <Box w="100%" h="400px">
-            <Image  w="650px" h="400px" ml="5%" src="https://c0.wallpaperflare.com/preview/648/404/42/shade-developer-dev-code.jpg" />
+            <Image mt={"-35px"}  w="650px" h="400px" ml="5%" src="https://c0.wallpaperflare.com/preview/648/404/42/shade-developer-dev-code.jpg" />
           </Box>
         </Flex>
         <Flex   w={["100%" , "100%", "100%" , "50%","50%"]} justifyContent="center" alignItems="center">
@@ -35,7 +35,7 @@ const About = () => {
               </ListItem>
               <ListItem mb="20px">
                 An aspiring Full Stack Developer with 1200+ hours of coding
-                experience in JavaScript.
+                experience in web .
               </ListItem>
               <ListItem mb="20px">
                 A dedicated team player enthusiastic to be part of a reputed

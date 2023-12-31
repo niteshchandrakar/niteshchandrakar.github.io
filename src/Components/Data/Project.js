@@ -1,67 +1,110 @@
-
 export const project = [
-    {
-        id: 3,
-        img: "money_mentor.gif",
-        title: "MoneyMentor",
-        description: "A website providing loan information and connecting users with loan providers, inspired by paisabazar loan information and loan provider website.",
-        tech: ["HTML", "CSS", "Javascript","React","Redux","Chakra-Ui"],
-        links: ["https://github.com/KrishnaVaishnav98/vogue-pocket-8479", "https://money-mentor.netlify.app/"]
+  {
+    id: 3,
+    img: "money_mentor.gif",
+    title: "MoneyMentor",
+    description:
+      "A website providing loan information and connecting users with loan providers, inspired by paisabazar loan information and loan provider website.",
+    tech: [
+      "https://camo.githubusercontent.com/5e7e215d9ff3a7c2e96d09232c11b2205565c841d1129dd2185ebd967284121f/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f68746d6c352d2532334533344632362e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d68746d6c35266c6f676f436f6c6f723d7768697465",
+      "https://camo.githubusercontent.com/6531a4161596e3d9fdab3d0499a7b7ce5c5c8b568be219f3e9707af042e575d2/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f637373332d2532333135373242362e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d63737333266c6f676f436f6c6f723d7768697465",
+      "https://camo.githubusercontent.com/53ec2e58e03ba275d9b3a386abd96a243cf744a1a7121bdf8262fc8ae6ebc335/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6a6176617363726970742d2532333332333333302e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d6a617661736372697074266c6f676f436f6c6f723d253233463744463145",
+      "https://camo.githubusercontent.com/3babc94d778f96441b3a66615fb5ee88c6ed04f174ed49b04df92b071a7d0e80/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f72656163742d2532333230323332612e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d7265616374266c6f676f436f6c6f723d253233363144414642",
+      "https://camo.githubusercontent.com/06d936bcad9d3f9d0e611e9afa230ebdefcac4074b7d97c425a3346495db190c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f72656475782d2532333539336438382e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d7265647578266c6f676f436f6c6f723d7768697465",
+      "https://camo.githubusercontent.com/f10a09d787a2711827baf1afaf040dbc50111dc399b1ecbb8a77f77931ebffb0/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6368616b72612d2532333445443143352e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d6368616b72617569266c6f676f436f6c6f723d7768697465",
+    ],
+    links: [
+      "https://github.com/KrishnaVaishnav98/vogue-pocket-8479",
+      "https://money-mentor.netlify.app/",
+    ],
+  },
+  {
+    id: 0,
+    img: "healthkart.gif",
+    title: "HealthMart",
+    description:
+      "A website similar to HealthKart, offering an e-commerce platform for health supplements, body-building products, and proteins.",
+    tech: [
+      "https://camo.githubusercontent.com/5e7e215d9ff3a7c2e96d09232c11b2205565c841d1129dd2185ebd967284121f/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f68746d6c352d2532334533344632362e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d68746d6c35266c6f676f436f6c6f723d7768697465",
+      "https://camo.githubusercontent.com/6531a4161596e3d9fdab3d0499a7b7ce5c5c8b568be219f3e9707af042e575d2/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f637373332d2532333135373242362e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d63737333266c6f676f436f6c6f723d7768697465",
+      "https://camo.githubusercontent.com/53ec2e58e03ba275d9b3a386abd96a243cf744a1a7121bdf8262fc8ae6ebc335/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6a6176617363726970742d2532333332333333302e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d6a617661736372697074266c6f676f436f6c6f723d253233463744463145",
+    ],
+    links: [
+      "https://github.com/niteshchandrakar/fond-channel-7524",
+      "https://healthkartt.netlify.app/",
+    ],
+  },
+  {
+    id: 1,
+    img: "EduTute.gif",
+    title: "Edutute",
+    description:
+      "A website similar to Student Dashboard that replicates the functionality of Calendly, a popular online scheduling platform",
+    tech: [
+      "https://camo.githubusercontent.com/5e7e215d9ff3a7c2e96d09232c11b2205565c841d1129dd2185ebd967284121f/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f68746d6c352d2532334533344632362e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d68746d6c35266c6f676f436f6c6f723d7768697465",
+      "https://camo.githubusercontent.com/6531a4161596e3d9fdab3d0499a7b7ce5c5c8b568be219f3e9707af042e575d2/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f637373332d2532333135373242362e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d63737333266c6f676f436f6c6f723d7768697465",
+      "https://camo.githubusercontent.com/53ec2e58e03ba275d9b3a386abd96a243cf744a1a7121bdf8262fc8ae6ebc335/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6a6176617363726970742d2532333332333333302e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d6a617661736372697074266c6f676f436f6c6f723d253233463744463145",
+      "https://camo.githubusercontent.com/f10a09d787a2711827baf1afaf040dbc50111dc399b1ecbb8a77f77931ebffb0/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6368616b72612d2532333445443143352e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d6368616b72617569266c6f676f436f6c6f723d7768697465",
+      "https://camo.githubusercontent.com/3babc94d778f96441b3a66615fb5ee88c6ed04f174ed49b04df92b071a7d0e80/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f72656163742d2532333230323332612e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d7265616374266c6f676f436f6c6f723d253233363144414642",
+    ],
+    links: [
+      "https://github.com/niteshchandrakar/quiet-boundary-1362",
+      "https://teal-sunflower-bcdecf.netlify.app/",
+    ],
+  },
+  {
+    id: 2,
+    img: "1.png",
+    title: "Riverhunt",
+    description:
+      "A website similar to buy fishing products,in this website you can buy ,making us your ultimate destination for all things fishing.",
+    tech: [
+      "https://camo.githubusercontent.com/5e7e215d9ff3a7c2e96d09232c11b2205565c841d1129dd2185ebd967284121f/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f68746d6c352d2532334533344632362e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d68746d6c35266c6f676f436f6c6f723d7768697465",
+      "https://camo.githubusercontent.com/6531a4161596e3d9fdab3d0499a7b7ce5c5c8b568be219f3e9707af042e575d2/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f637373332d2532333135373242362e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d63737333266c6f676f436f6c6f723d7768697465",
+      "https://camo.githubusercontent.com/53ec2e58e03ba275d9b3a386abd96a243cf744a1a7121bdf8262fc8ae6ebc335/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6a6176617363726970742d2532333332333333302e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d6a617661736372697074266c6f676f436f6c6f723d253233463744463145",
+    ],
+    links: [
+      "https://github.com/niteshchandrakar/astute-line-8992",
+      "https://stellular-cendol-ad797d.netlify.app/",
+    ],
+  },
 
-
-    },
-    {
-        id: 0,
-        img: "healthkart.gif",
-        title: "HealthMart",
-        description: "A website similar to HealthKart, offering an e-commerce platform for health supplements, body-building products, and proteins.",
-        tech: ["HTML", "CSS", "Javascript"],
-        links: ["https://github.com/niteshchandrakar/fond-channel-7524", "https://healthkartt.netlify.app/"]
-
-
-    },
-    {
-        id: 1,
-        img: "EduTute.gif",
-        title: "Edutute",
-        description: "A website similar to Student Dashboard that replicates the functionality of Calendly, a popular online scheduling platform",
-        tech: ["HTML", "CSS", "Javascript", "Chakra-Ui", "React"],
-        links: ["https://github.com/niteshchandrakar/quiet-boundary-1362", "https://teal-sunflower-bcdecf.netlify.app/"]
-
-
-    },
-    {
-        id: 2,
-        img: "1.png",
-        title: "Riverhunt",
-        description: "A website similar to buy fishing products,in this website you can buy ,making us your ultimate destination for all things fishing.",
-        tech: ["HTML", "CSS", "Javascript"],
-        links: ["https://github.com/niteshchandrakar/astute-line-8992", "https://stellular-cendol-ad797d.netlify.app/"]
-
-
-    },
-  
-    {
-        id: 4,
-        img: "CredScore.gif",
-        title: "CredScore",
-        description: "Welcome to our CredScore! We are your one-stop destination for all your cibil score checking. Our platform offers a wide range of loan options, tailored to suit individual requirements.",
-        tech: ["HTML", "CSS", "Javascript","React","Redux","Chakra-Ui","MongoDb","Express","Node"],
-        links: ["https://github.com/niteshchandrakar/sleek-circle-8356", "https://credscore.netlify.app/"]
-
-
-    },
-    {
-        id: 5,
-        img: "DonateForChange.gif",
-        title: "DonateForChange",
-        description: "There’s a part of every one of us that dreams of a better world. That spark of inspiration to help a person, fix a neighborhood, or even change a nation.",
-        tech: ["HTML", "CSS", "Javascript","React","Redux","Chakra-Ui"],
-        links: ["https://github.com/niteshchandrakar/bouncy-invention-713", "https://donateforchanges.netlify.app/"]
-
-
-    },
-    
-
-]
-
+  {
+    id: 4,
+    img: "CredScore.gif",
+    title: "CredScore",
+    description:
+      "Welcome to our CredScore! We are your one-stop destination for all your cibil score checking. Our platform offers a wide range of loan options, tailored to suit individual requirements.",
+    tech: [
+      "https://camo.githubusercontent.com/3babc94d778f96441b3a66615fb5ee88c6ed04f174ed49b04df92b071a7d0e80/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f72656163742d2532333230323332612e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d7265616374266c6f676f436f6c6f723d253233363144414642",
+      "https://camo.githubusercontent.com/06d936bcad9d3f9d0e611e9afa230ebdefcac4074b7d97c425a3346495db190c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f72656475782d2532333539336438382e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d7265647578266c6f676f436f6c6f723d7768697465",
+      "https://camo.githubusercontent.com/f10a09d787a2711827baf1afaf040dbc50111dc399b1ecbb8a77f77931ebffb0/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6368616b72612d2532333445443143352e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d6368616b72617569266c6f676f436f6c6f723d7768697465",
+      "https://camo.githubusercontent.com/7e95531437f8c91626ae46cb69240160dfde5c39c1119c550cd174ba8a19e712/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4d6f6e676f44422d2532333465613934622e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d6d6f6e676f6462266c6f676f436f6c6f723d7768697465",
+      "https://camo.githubusercontent.com/1bf0d1f3d3c56a35fb820e063b0fc6fed019ca6999c4c5abe17cfdbe3ce190c3/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f657870726573732e6a732d2532333430346435392e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d65787072657373266c6f676f436f6c6f723d253233363144414642",
+      "https://camo.githubusercontent.com/0d58facab1be74748c39244ff3d990ae8ddd765af40263ed006219154ba90649/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6e6f64652e6a732d3644413535463f7374796c653d666f722d7468652d6261646765266c6f676f3d6e6f64652e6a73266c6f676f436f6c6f723d7768697465",
+    ],
+    links: [
+      "https://github.com/niteshchandrakar/sleek-circle-8356",
+      "https://credscore.netlify.app/",
+    ],
+  },
+  {
+    id: 5,
+    img: "DonateForChange.gif",
+    title: "DonateForChange",
+    description:
+      "There’s a part of every one of us that dreams of a better world. That spark of inspiration to help a person, fix a neighborhood, or even change a nation.",
+    tech: [
+        "https://camo.githubusercontent.com/7e95531437f8c91626ae46cb69240160dfde5c39c1119c550cd174ba8a19e712/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4d6f6e676f44422d2532333465613934622e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d6d6f6e676f6462266c6f676f436f6c6f723d7768697465",
+        "https://camo.githubusercontent.com/1bf0d1f3d3c56a35fb820e063b0fc6fed019ca6999c4c5abe17cfdbe3ce190c3/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f657870726573732e6a732d2532333430346435392e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d65787072657373266c6f676f436f6c6f723d253233363144414642",
+        "https://camo.githubusercontent.com/0d58facab1be74748c39244ff3d990ae8ddd765af40263ed006219154ba90649/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6e6f64652e6a732d3644413535463f7374796c653d666f722d7468652d6261646765266c6f676f3d6e6f64652e6a73266c6f676f436f6c6f723d7768697465",
+      "https://camo.githubusercontent.com/3babc94d778f96441b3a66615fb5ee88c6ed04f174ed49b04df92b071a7d0e80/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f72656163742d2532333230323332612e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d7265616374266c6f676f436f6c6f723d253233363144414642",
+      "https://camo.githubusercontent.com/06d936bcad9d3f9d0e611e9afa230ebdefcac4074b7d97c425a3346495db190c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f72656475782d2532333539336438382e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d7265647578266c6f676f436f6c6f723d7768697465",
+      "https://camo.githubusercontent.com/f10a09d787a2711827baf1afaf040dbc50111dc399b1ecbb8a77f77931ebffb0/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6368616b72612d2532333445443143352e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d6368616b72617569266c6f676f436f6c6f723d7768697465",
+    ],
+    links: [
+      "https://github.com/niteshchandrakar/bouncy-invention-713",
+      "https://donateforchanges.netlify.app/",
+    ],
+  },
+];

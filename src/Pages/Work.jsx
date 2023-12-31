@@ -15,7 +15,7 @@ const Work = () => {
 
         </Heading>
       </Box>
-      <Grid w="auto" p="10px" templateColumns={["repeat(1, 1fr)","repeat(1, 1fr)","repeat(2, 1fr)","repeat(2, 1fr)","repeat(3, 1fr)"]} gap={10}>
+      <Grid w="auto" p="10px" templateColumns={["repeat(1, 1fr)","repeat(1, 1fr)","repeat(2, 1fr)","repeat(2, 1fr)","repeat(3, 1fr)"]} gap={7}>
         {
           project.map(({id,title , description, tech , img ,links }) => <Card  key={id} title={title} description={description} tech={tech} img={img}  links={links}/> )
         
