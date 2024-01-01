@@ -74,7 +74,7 @@ export const project = [
     img: "CredScore.png",
     title: "CredScore",
     description:
-      "Welcome to our CredScore! We are your one-stop destination for all your cibil score checking. Our platform offers a wide range of loan options, tailored to suit individual requirements.",
+      "We are your one-stop destination for all your cibil score checking. Our platform offers a wide range of loan options, tailored to suit individual requirements.",
     tech: [
       "https://camo.githubusercontent.com/3babc94d778f96441b3a66615fb5ee88c6ed04f174ed49b04df92b071a7d0e80/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f72656163742d2532333230323332612e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d7265616374266c6f676f436f6c6f723d253233363144414642",
       "https://camo.githubusercontent.com/06d936bcad9d3f9d0e611e9afa230ebdefcac4074b7d97c425a3346495db190c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f72656475782d2532333539336438382e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d7265647578266c6f676f436f6c6f723d7768697465",
