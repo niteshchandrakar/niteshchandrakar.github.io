@@ -1,7 +1,7 @@
 export const project = [
   {
     id: 3,
-    img: "money_mentor.gif",
+    img: "money_mentor.png",
     title: "MoneyMentor",
     description:
       "A website providing loan information and connecting users with loan providers, inspired by paisabazar loan information and loan provider website.",
@@ -20,7 +20,7 @@ export const project = [
   },
   {
     id: 0,
-    img: "healthkart.gif",
+    img: "healthkart.png",
     title: "HealthMart",
     description:
       "A website similar to HealthKart, offering an e-commerce platform for health supplements, body-building products, and proteins.",
@@ -36,7 +36,7 @@ export const project = [
   },
   {
     id: 1,
-    img: "EduTute.gif",
+    img: "EduTute.png",
     title: "Edutute",
     description:
       "A website similar to Student Dashboard that replicates the functionality of Calendly, a popular online scheduling platform",
@@ -71,7 +71,7 @@ export const project = [
 
   {
     id: 4,
-    img: "CredScore.gif",
+    img: "CredScore.png",
     title: "CredScore",
     description:
       "Welcome to our CredScore! We are your one-stop destination for all your cibil score checking. Our platform offers a wide range of loan options, tailored to suit individual requirements.",
@@ -90,7 +90,7 @@ export const project = [
   },
   {
     id: 5,
-    img: "DonateForChange.gif",
+    img: "DonateForChange.png",
     title: "DonateForChange",
     description:
       "There’s a part of every one of us that dreams of a better world. That spark of inspiration to help a person, fix a neighborhood, or even change a nation.",

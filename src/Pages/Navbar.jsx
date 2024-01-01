@@ -24,7 +24,7 @@ const Navbar = () => {
     <div id="nav-menu" >
       <Flex
         position="fixed"
-        h="75px"
+        h="50px"
         bg={"black"}
         justifyContent="space-between"
         w="100%"
@@ -183,7 +183,7 @@ const Navbar = () => {
             >
               <Text 
                
-               onClick={()=> window.open(`https://drive.google.com/file/d/1Yrhafee9FGzVQrV3a8f1vIIGu_gUCgyL/view?usp=sharing`)}
+               onClick={()=> window.open(`https://drive.google.com/file/d/1OfOGHgpDF01w62S9ZtZxKqHtBACKwu0m/view?usp=sharing`)}
               id="resume-button-1"
               class="nav-link resume"
                 _hover={{ colorScheme: "#d11243", variant: "outline" }}

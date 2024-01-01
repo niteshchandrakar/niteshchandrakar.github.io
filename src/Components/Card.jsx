@@ -1,27 +1,22 @@
-import { Box, Button, Center, Heading, HStack, Image, Stack, Text, Wrap, WrapItem } from "@chakra-ui/react";
+import { Box, Button, Center, Flex, Heading, HStack, Image, Stack, Text, Wrap, WrapItem } from "@chakra-ui/react";
 import React from "react";
 
 const Card = ({ title, description, tech, links, img }) => {
   return (
-    <Box className="project-card" w={["350px", "350px", "350px", "400px", "400px"]} m="auto" rounded={10} bg={"#f1f1f1"} h="570px" p="10px 15px 50px 15px" boxShadow={"rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;"}>
+    <Box className="project-card" w={["350px", "350px", "350px", "400px", "400px"]} m="auto" rounded={10} bg={"#f1f1f1"} h="500px" p="10px 15px 50px 15px" boxShadow={"rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;"}>
       <Stack>
-        <Image rounded={10} h="220px" w="100%" src={img} />
-        <Box color="black" textAlign="center">
-          <Heading className="project-title">{title}</Heading>
-        </Box>
-        <Text class="project-description" color="#919497">{description}</Text>
-        {/* <Text class="project-tech-stack" color={"#d11243"}>
-          Tech Stack:{" "}
-          <Text color="black" as="span">
-            {tech.join(" ,")}
-          </Text>
-        </Text> */}
-          <HStack mt={"0px"} spacing={50}>
-          <a style={{ color: "#d11243" }} href={links[0]} target="#">
+        <Image rounded={10} h="200px" w="100%" src={img} />
+        
+          <Text textAlign="center" as="text" fontWeight={"bold"} fontSize='l' className="project-title">{title}</Text>
+        
+        <Text mt={"0px"} class="project-description" color="#919497">{description}</Text>
+
+          <Flex mt={"0px"} m="auto"  ml="10%"  spacing={50}>
+          <a style={{ color: "#d11243",marginLeft:"50px",marginRight:"30px" }}  href={links[0]} target="#">
             <Box
              class="project-github-link"
               rounded="20%"
-              p="15px"
+            
               
             >
               <Image size="30px"
@@ -36,7 +31,7 @@ const Card = ({ title, description, tech, links, img }) => {
             <Box
              
               rounded="10%"
-              p="15px"
+             
 
             >
               <Image
@@ -48,7 +43,7 @@ const Card = ({ title, description, tech, links, img }) => {
                 size="30px" color={"#"}/>
             </Box>
           </a>
-        </HStack>
+        </Flex>
         <Center>
 
         <Text as="h5" fontWeight={"bold"} >Tech Stack</Text>
