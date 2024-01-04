@@ -183,7 +183,7 @@ const Navbar = () => {
             >
               <Text 
                
-               onClick={()=> window.open(`https://drive.google.com/file/d/1OfOGHgpDF01w62S9ZtZxKqHtBACKwu0m/view?usp=sharing`)}
+               onClick={()=> window.open(`https://drive.google.com/file/d/1O2JVIO40kTawbEQE11pSNHuajKuqbTjT/view?usp=sharing`)}
               id="resume-button-1"
               class="nav-link resume"
                 _hover={{ colorScheme: "#d11243", variant: "outline" }}
