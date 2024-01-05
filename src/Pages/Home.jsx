@@ -57,7 +57,7 @@ const Home = () => {
               
               >
             <Button
-             onClick={()=> window.open(`https://drive.google.com/file/d/1O2JVIO40kTawbEQE11pSNHuajKuqbTjT/view?usp=sharing`)}
+             onClick={()=> window.open(`https://drive.google.com/file/d/1CTMfI8YuA-4jzgGb6xzHU0Z9unjp1c6k/view?usp=sharing`)}
               id="resume-button-2"
               _hover={{
                 h: "60px",

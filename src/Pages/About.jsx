@@ -43,7 +43,7 @@ const About = () => {
                 strengthen skills learned.
               </ListItem>
               <ListItem mb="20px">
-                Fast Forwarding to today, I built a number of web applications and 3 major projects. learned a great deal about teamwork, leadership, and communication.
+                Fast Forwarding to today, I built a number of web applications and 6 major projects. learned a great deal about teamwork, leadership, and communication.
               </ListItem>
               <ListItem mb="20px">My Interest in Cricket</ListItem>
             </UnorderedList>
