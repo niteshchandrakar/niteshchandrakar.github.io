@@ -2,22 +2,30 @@ import { Box, Button, Flex, textDecoration } from "@chakra-ui/react";
 import React, { useState } from "react";
 import { Link } from "react-scroll";
 import { Text } from "@chakra-ui/react";
-
+import "./header.css";
+import { CloseIcon, HamburgerIcon } from "@chakra-ui/icons";
 const Navbar = () => {
   const [page, setPage] = useState(1);
- 
+  const [click, setClick] = useState(false);
+  const handleClick = () => setClick(!click);
+  const closeMobileMenu = () => setClick(false);
 
   const handlePage = (id) => {
     if (id === 1) {
       setPage(id);
+      closeMobileMenu()
     } else if (id === 2) {
       setPage(id);
+      closeMobileMenu()
     } else if (id === 3) {
       setPage(id);
+      closeMobileMenu()
     } else if (id === 4) {
       setPage(id);
+      closeMobileMenu()
     } else if (id === 5) {
       setPage(id);
+      closeMobileMenu()
     }
   };
   return (
@@ -202,6 +210,168 @@ const Navbar = () => {
             </a>
           </Text>
         </Flex>
+
+        {/* trying to do Hamburger */}
+        <div className="header">
+      <div className="logo-nav">
+        
+        <ul className={click ? "nav-options active" : "nav-options"}>
+          <li className="option" onClick={closeMobileMenu}>
+          <Text
+          onClick={closeMobileMenu}
+            color={page === 1 ? "#d11243" : "white"}
+            textDecoration={page === 1 ? "underline" : ""}
+            _hover={{
+              bg: "#d11243",
+              p: "10px",
+              color: "#ecf0f3",
+              rounded: "10px",
+              transition: "all 0.2s",
+              cursor: "pointer",
+            }}
+            fontSize="20px"
+          >
+            <Link  class="nav-link home" onClick={() => handlePage(1)} to="home" smooth={true}>
+              Home
+
+
+            </Link>
+          </Text>
+          </li>
+          <li className="option" onClick={closeMobileMenu}>
+          <Text
+          onClick={closeMobileMenu}
+            color={page === 2 ? "#d11243" : "white"}
+            textDecoration={page === 2 ? "underline" : ""}
+            _hover={{
+              bg: "#d11243",
+              p: "10px",
+              color: "#ecf0f3",
+              rounded: "10px",
+              transition: "all 0.2s",
+              cursor: "pointer",
+            }}
+            fontSize="20px"
+          >
+            <Link class="nav-link about"  onClick={() => handlePage(2)} to="about" smooth={true}>
+              About
+            </Link>
+          </Text>
+          </li>
+          <li className="option" onClick={closeMobileMenu}>
+          <Text
+          onClick={closeMobileMenu}
+            color={page === 3 ? "#d11243" : "white"}
+            textDecoration={page === 3 ? "underline" : ""}
+            _hover={{
+              bg: "#d11243",
+              p: "10px",
+              color: "#ecf0f3",
+              rounded: "10px",
+              transition: "all 0.2s",
+              cursor: "pointer",
+            }}
+            fontSize="20px"
+          >
+            <Link class="nav-link projects" onClick={() => handlePage(3)} to="projects" smooth={true}>
+              Projects
+            </Link>
+          </Text>
+          </li>
+          <li className="option" onClick={closeMobileMenu}>
+          <Text
+          onClick={closeMobileMenu}
+            color={page === 4 ? "#d11243" : "white"}
+            textDecoration={page === 4 ? "underline" : ""}
+            _hover={{
+              bg: "#d11243",
+              p: "10px",
+              color: "#ecf0f3",
+              rounded: "10px",
+              transition: "all 0.2s",
+              cursor: "pointer",
+            }}
+            fontSize="20px"
+          >
+            <Link class="nav-link skills" onClick={() => handlePage(4)} to="skills" smooth={true}>
+              Skills
+            </Link>
+          </Text>
+          </li>
+          <li className="option" onClick={closeMobileMenu}>
+          <Text
+          onClick={closeMobileMenu}
+            color={page === 6 ? "#d11243" : "white"}
+            textDecoration={page === 6 ? "underline" : ""}
+            _hover={{
+              bg: "#d11243",
+              p: "10px",
+              color: "#ecf0f3",
+              rounded: "10px",
+              transition: "all 0.2s",
+              cursor: "pointer",
+            }}
+            fontSize="20px"
+          >
+            <Link class="nav-link contact" onClick={() => handlePage(6)} to="contact" smooth={true}>
+              Contact
+            </Link>
+          </Text>
+          </li>
+          <li className="option" onClick={closeMobileMenu}>
+          <Text
+          onClick={closeMobileMenu}
+            color={page === 6 ? "#d11243" : "white"}
+            textDecoration={page === 6 ? "underline" : ""}
+            _hover={{
+              bg: "#d11243",
+              p: "10px",
+              color: "#ecf0f3",
+              rounded: "10px",
+              transition: "all 0.2s",
+              cursor: "pointer",
+            }}
+            fontSize="20px"
+          >
+            <a style={{ textDecoration: "none" }} 
+             href="Nitesh_Chandrakar_Resume.pdf"
+             target="_blank"
+             download = "Nitesh_Chandrakar_Resume.pdf"
+            >
+              <Text 
+               
+               onClick={()=> window.open(`https://drive.google.com/file/d/1CTMfI8YuA-4jzgGb6xzHU0Z9unjp1c6k/view?usp=sharing`)}
+              id="resume-button-1"
+              class="nav-link resume"
+                _hover={{ colorScheme: "#d11243", variant: "outline" }}
+                h="35px"
+                w="140px"
+                fontSize="20px"
+                bg={"#d11243"}
+                rounded={5}
+                fontWeight="bold"
+                border="none"
+                color="#f1f1f1"
+                variant="solid"
+              >
+                RESUME
+              </Text>
+            </a>
+          </Text>
+          </li>
+          
+        </ul>
+      </div>
+      
+      <div className="mobile-menu" onClick={handleClick}>
+        {click ? (
+          <CloseIcon/>
+          
+        ) : (
+          <HamburgerIcon  />
+        )}
+      </div>
+    </div>
       </Flex>
     </div>
   );
