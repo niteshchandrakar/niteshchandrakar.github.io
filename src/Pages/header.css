@@ -64,6 +64,8 @@
     .mobile-menu {
         color: white;
         margin-top: -30px;
+        width: 2em;
+        height: 2em;
       }
     .header {
       padding: 0px 10px;
