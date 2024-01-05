@@ -18,6 +18,7 @@ const About = () => {
       Aos.init({duration:1200});
     }, []);
   return (
+    // all done
     <Box  >
       <Flex pb="30px"   justifyContent="center">
 
