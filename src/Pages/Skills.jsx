@@ -16,9 +16,7 @@ import "aos/dist/aos.css";
 import Aos from "aos";
 
 const Skills = () => {
-    useEffect(() => {
-      Aos.init({duration:1200});
-    }, []);
+
   return (
     <Box m="auto"  h="auto">
       <Flex py="40px"  justifyContent="center">
@@ -40,7 +38,7 @@ const Skills = () => {
           return (
             <>
               <Flex key={text}
-              data-aos="zoom-in-up"
+              
                className="skills-card"
                 _hover={{ boxShadow:"rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;", transition: "all 0.9s" }}
                 alignItems="center"
@@ -86,7 +84,7 @@ const Skills = () => {
                 alignItems="center"
                 bg={"#f1f1f1"}
                 justifyContent="center"
-                data-aos="zoom-in-up"
+                
                 w="140px"
                 rounded={7}
                 h="160px"

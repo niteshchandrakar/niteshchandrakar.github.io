@@ -22,9 +22,7 @@ import Aos from "aos";
 
 
 const Contact = () => {
-    useEffect(() => {
-      Aos.init({duration:1200});
-    }, []);
+    
   const [user, setUser] = useState({
     name: "",
     email: "",
@@ -75,13 +73,13 @@ const Contact = () => {
 
   return (
     <Box>
-      <Flex py="40px" data-aos="zoom-in-up"  justifyContent="center">   
+      <Flex py="40px"   justifyContent="center">   
           <Heading fontSize={["20px","30px","30px"]} color={"#d11243"} as="span">
           Chat And Connect With Me
   
         </Heading>
       </Flex>
-      <Flex h="600px" data-aos="zoom-in-up"  justifyContent="space-around">
+      <Flex h="600px"   justifyContent="space-around">
         <Flex display={["none" , "none" , "none" ,"flex" ,"flex"]} w="30%" justifyContent={"center"} alignItems="center" bg="">
           <Box > 
             <a href="">
