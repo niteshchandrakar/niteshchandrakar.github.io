@@ -26,23 +26,25 @@ const Skills = () => {
         </Heading>
       </Flex>
       <Grid
-        templateColumns={["repeat(2, 1fr)","repeat(3, 1fr)","repeat(4, 1fr)","repeat(6, 1fr)","repeat(8, 1fr)"]}
+        templateColumns={["repeat(2, 1fr)","repeat(3, 1fr)","repeat(4, 1fr)","repeat(6, 1fr)","repeat(6, 1fr)"]}
         w="auto"
         p="20px"
         margin="auto"
         gap={5}
         h="auto"
-        
+        alignContent="center"
+                
+                justifyContent="center"
       >
         {skills.map(({icon,text}) => {
           return (
             <>
               <Flex key={text}
-              
+              m="auto"
                className="skills-card"
                 _hover={{ boxShadow:"rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;", transition: "all 0.9s" }}
                 alignItems="center"
-                bg={"#f1f1f1"}
+                
                 justifyContent="center"
                 w="140px"
                 rounded={7}
@@ -50,7 +52,7 @@ const Skills = () => {
               >
                 <VStack>
                   <Image className="skills-card-img" src={icon} w="100px" h="100px" />
-                  <Text className="skills-card-name" color="BLACK">{text}</Text>
+                  <Text className="skills-card-name" color="white">{text}</Text>
                 </VStack>
               </Flex>
             </>
@@ -82,7 +84,7 @@ const Skills = () => {
                className="skills-card"
                 _hover={{ boxShadow:"rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;", transition: "all 0.9s" }}
                 alignItems="center"
-                bg={"#f1f1f1"}
+                
                 justifyContent="center"
                 
                 w="140px"
@@ -91,7 +93,7 @@ const Skills = () => {
               >
                 <VStack>
                   <Image className="skills-card-img" src={icon} w="100px" h="100px" />
-                  <Text className="skills-card-name" color="BLACK">{text}</Text>
+                  <Text className="skills-card-name" color="white">{text}</Text>
                 </VStack>
               </Flex>
             </>

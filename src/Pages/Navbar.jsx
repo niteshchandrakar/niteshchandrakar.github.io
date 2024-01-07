@@ -103,6 +103,23 @@ const Navbar = () => {
               About
             </Link>
           </Text>
+            <Text
+              color={page === 4 ? "#d11243" : "white"}
+              textDecoration={page === 4 ? "underline" : ""}
+              _hover={{
+                bg: "#d11243",
+                p: "10px",
+                color: "#ecf0f3",
+                rounded: "10px",
+                transition: "all 0.2s",
+                cursor: "pointer",
+              }}
+              fontSize="20px"
+            >
+              <Link class="nav-link skills" onClick={() => handlePage(4)} to="skills" smooth={true}>
+                Skills
+              </Link>
+            </Text>
           <Text
             color={page === 3 ? "#d11243" : "white"}
             textDecoration={page === 3 ? "underline" : ""}
@@ -118,23 +135,6 @@ const Navbar = () => {
           >
             <Link class="nav-link projects" onClick={() => handlePage(3)} to="projects" smooth={true}>
               Projects
-            </Link>
-          </Text>
-          <Text
-            color={page === 4 ? "#d11243" : "white"}
-            textDecoration={page === 4 ? "underline" : ""}
-            _hover={{
-              bg: "#d11243",
-              p: "10px",
-              color: "#ecf0f3",
-              rounded: "10px",
-              transition: "all 0.2s",
-              cursor: "pointer",
-            }}
-            fontSize="20px"
-          >
-            <Link class="nav-link skills" onClick={() => handlePage(4)} to="skills" smooth={true}>
-              Skills
             </Link>
           </Text>
           <Text
@@ -258,6 +258,26 @@ const Navbar = () => {
             </Link>
           </Text>
           </li>
+            <li className="option" onClick={closeMobileMenu}>
+            <Text
+            onClick={closeMobileMenu}
+              color={page === 4 ? "#d11243" : "white"}
+              textDecoration={page === 4 ? "underline" : ""}
+              _hover={{
+                bg: "#d11243",
+                p: "10px",
+                color: "#ecf0f3",
+                rounded: "10px",
+                transition: "all 0.2s",
+                cursor: "pointer",
+              }}
+              fontSize="20px"
+            >
+              <Link class="nav-link skills" onClick={() => handlePage(4)} to="skills" smooth={true}>
+                Skills
+              </Link>
+            </Text>
+            </li>
           <li className="option" onClick={closeMobileMenu}>
           <Text
           onClick={closeMobileMenu}
@@ -275,26 +295,6 @@ const Navbar = () => {
           >
             <Link class="nav-link projects" onClick={() => handlePage(3)} to="projects" smooth={true}>
               Projects
-            </Link>
-          </Text>
-          </li>
-          <li className="option" onClick={closeMobileMenu}>
-          <Text
-          onClick={closeMobileMenu}
-            color={page === 4 ? "#d11243" : "white"}
-            textDecoration={page === 4 ? "underline" : ""}
-            _hover={{
-              bg: "#d11243",
-              p: "10px",
-              color: "#ecf0f3",
-              rounded: "10px",
-              transition: "all 0.2s",
-              cursor: "pointer",
-            }}
-            fontSize="20px"
-          >
-            <Link class="nav-link skills" onClick={() => handlePage(4)} to="skills" smooth={true}>
-              Skills
             </Link>
           </Text>
           </li>
