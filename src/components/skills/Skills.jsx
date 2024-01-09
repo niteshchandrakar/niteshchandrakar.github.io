@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import styles from "./skills.module.css"
 import cssimg from "../../assets/css.png"
 import chakraimg from "../../assets/chakra.png"
@@ -17,9 +17,14 @@ import typescriptimg from "../../assets/typescriptimage.png"
 import OpenAI from "../../assets/OpenAI.webp"
 import Postman from "../../assets/Postman.png"
 import vsimg from "../../assets/vs.jpg"
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const codesandimg = "https://ci.codesandbox.io/static/favicon.ico"
 
 const Skills = () => {
+  useEffect(() => {
+    AOS.init();
+  }, [])
   const SkillsArr = [
     {
       id: 1,
@@ -146,7 +151,7 @@ const Skills = () => {
       <div className={styles.skills__secondmaindiv}>
         <div className={styles.skills_grid_div}>
           {SkillsArr.map(({ id, source, name, colour }) => (
-            <div className={styles.skills__skilldiv} key={id} style={{ boxShadow: `0 4px 6px -1px ${colour}, 0 2px 4px -2px ${colour}` }}>
+            <div data-aos="zoom-in-up" className={styles.skills__skilldiv} key={id} style={{ boxShadow: `0 4px 6px -1px ${colour}, 0 2px 4px -2px ${colour}` }}>
               <img src={source} alt="skills" />
               <p>{name}</p>
             </div>
@@ -162,7 +167,7 @@ const Skills = () => {
         <div className={styles.skills__secondmaindiv}>
           <div className={styles.skills_grid_div}>
             {ToolsArr.map(({ id, source, name, colour }) => (
-              <div className={styles.skills__skilldiv} key={id} style={{ boxShadow: `0 4px 6px -1px ${colour}, 0 2px 4px -2px ${colour}` }}>
+              <div data-aos="zoom-in-up" className={styles.skills__skilldiv} key={id} style={{ boxShadow: `0 4px 6px -1px ${colour}, 0 2px 4px -2px ${colour}` }}>
                 <img src={source} alt="skills" />
                 <p>{name}</p>
               </div>

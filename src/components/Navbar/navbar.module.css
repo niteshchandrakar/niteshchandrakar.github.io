@@ -81,9 +81,9 @@
         top: 0%;
     }
     .navbar__logodiv{
-        width: 78%;
+        width: 95%;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         font-size: 2.74rem;
     }
 

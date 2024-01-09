@@ -9,9 +9,9 @@ const Navbar = () => {
         <div id={styles.navbar__fixeddiv}>
             <div id={styles.navbar__maindiv}>
                 <div className={styles.navbar__logodiv}>
+                    <p className={styles.navbar__logo}>Nitesh</p>
                     <div className={styles.navbar__hemberger}>  <i onClick={() => setToggle(!toggle)} className="uil uil-bars"></i>
                     </div>
-                    <p className={styles.navbar__logo}>Nitesh</p>
                 </div>
                 <ul type="none" className={toggle ? `${styles.navbar__showlist} ${styles.navbar__list}` : styles.navbar__list}>
                     <li><a href="#home"><i onClick={() => setToggle(!toggle)} className={`uil uil-estate ${styles.navbar__icon}`}> </i> Home</a> </li>

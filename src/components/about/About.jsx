@@ -1,15 +1,19 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import styles from "./about.module.css"
 import SocialLinks from "../SocialLinks"
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const About = () => {
+    useEffect(() => {
+        AOS.init();
+      }, [])
     return (
         <section className={styles.about__section} id="about">
-            <h1 className={styles.about_heading}>About Me</h1>
+            <h1  className={styles.about_heading}>About Me</h1>
             <p className={styles.about__description}>My Introduction</p>
 
-            <div className={styles.about__data_div}>
+            <div data-aos="zoom-in-up" className={styles.about__data_div}>
                 <img src="https://techasoft.com/uploads/Developer.jpg" alt="one image" />
                 
                 <div className={styles.about__data_seconddiv}>
@@ -71,9 +75,9 @@ const About = () => {
 
                     <h3><span style={{fontSize:"0.5rem",fontWeight:"normal"}}>________</span> I am Nitesh Chandrakar</h3>
 
-                    <p>A self-motivated and ambitious Full Stack Web Developer with proficiency in JavaScript and React. Problem-solving mindset and the ability to perform well in collaboration. 1200+ hours of coding and curious to Learn about emerging web technologies. Looking forward to working as an accountable and competent employee in an exciting tech company.</p>
+                    <p  >A self-motivated and ambitious Full Stack Web Developer with proficiency in JavaScript and React. Problem-solving mindset and the ability to perform well in collaboration. 1200+ hours of coding and curious to Learn about emerging web technologies. Looking forward to working as an accountable and competent employee in an exciting tech company.</p>
 
-                    <div className={styles.about__sociallink}>
+                    <div data-aos="zoom-in-up" className={styles.about__sociallink}>
                         <SocialLinks />
                     </div>
                 </div>

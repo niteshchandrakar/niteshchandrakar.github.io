@@ -1,9 +1,14 @@
-import React, { useRef } from 'react';
+import React, { useEffect, useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import styles from "./contact.module.css"
 import SocialLinks from "../SocialLinks"
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Contact = () => {
+  useEffect(() => {
+    AOS.init();
+  }, [])
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -20,7 +25,7 @@ const Contact = () => {
 
 
       <div className={styles.contact_maindiv}>
-        <div>
+        <div data-aos="zoom-in-up">
           <p>Talk to me</p>
 
           <div className={styles.contact__socialdivs}>
@@ -44,7 +49,7 @@ const Contact = () => {
         </div>
 
 
-        <div>
+        <div data-aos="zoom-in-up">
           <p>Write me Your Message</p>
           <form className={styles.contact__formdiv} ref={form} onSubmit={sendEmail}>
             <input name="name" type="text" placeholder='Insert your name' />

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import styles from "./project.module.css"
 import cssimg from "../../assets/css.png"
 import chakraimg from "../../assets/chakra.png"
@@ -11,11 +11,15 @@ import reduximg from "../../assets/redux-seeklogo.svg"
 import nodejsimg from "../../assets/nodejsimage.png"
 import typescriptimg from "../../assets/typescriptimage.png"
 import OpenAI from "../../assets/OpenAI.webp"
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Project = () => {
+  useEffect(() => {
+    AOS.init();
+  }, [])
   return (
-    <section className={styles.project__section} id="projects">
+    <section   className={styles.project__section} id="projects">
       <h1 className={styles.project__heading}>Projects</h1>
       <p className={styles.project__description}>Check out some of my work right here</p>
 
@@ -25,7 +29,7 @@ const Project = () => {
 
 
 
-        <div className={styles.projects__outerDiv}>
+        <div data-aos="zoom-in-up" className={styles.projects__outerDiv}>
           <div className={styles.projects__maindiv}>
             <div className={styles.projects__imgouterdiv}>
               <img src="ManMatters.gif" alt="ManMatters" className={styles.projects__divimage} />
@@ -98,7 +102,7 @@ const Project = () => {
           </div>
         </div>
 
-        <div className={styles.projects__outerDiv}>
+        <div data-aos="zoom-in-up" className={styles.projects__outerDiv}>
           <div className={styles.projects__maindiv}>
             <div className={styles.projects__imgouterdiv}>
               <img src="money_mentor.png" alt="MoneyMentor" className={styles.projects__divimage} />
@@ -154,7 +158,7 @@ const Project = () => {
             </div>
           </div>
         </div>
-        <div className={styles.projects__outerDiv}>
+        <div data-aos="zoom-in-up" className={styles.projects__outerDiv}>
           <div className={styles.projects__maindiv}>
             <div className={styles.projects__imgouterdiv}>
               <img src="DonateForChange.png" alt="DonateForChange" className={styles.projects__divimage} />
@@ -223,7 +227,7 @@ const Project = () => {
             </div>
           </div>
         </div>
-        <div className={styles.projects__outerDiv}>
+        <div data-aos="zoom-in-up" className={styles.projects__outerDiv}>
           <div className={styles.projects__maindiv}>
             <div className={styles.projects__imgouterdiv}>
               <img src="CredScore.png" alt="CredScore" className={styles.projects__divimage} />
@@ -290,7 +294,7 @@ const Project = () => {
             </div>
           </div>
         </div>
-        <div className={styles.projects__outerDiv}>
+        <div data-aos="zoom-in-up" className={styles.projects__outerDiv}>
           <div className={styles.projects__maindiv}>
             <div className={styles.projects__imgouterdiv}>
               <img src="Dreams.png" alt="Dreams" className={styles.projects__divimage} />
@@ -354,7 +358,7 @@ const Project = () => {
             </div>
           </div>
         </div>
-        <div className={styles.projects__outerDiv}>
+        <div data-aos="zoom-in-up" className={styles.projects__outerDiv}>
           <div className={styles.projects__maindiv}>
             <div className={styles.projects__imgouterdiv}>
               <img src="EduTute.png" alt="EduTute" className={styles.projects__divimage} />
@@ -407,7 +411,7 @@ const Project = () => {
             </div>
           </div>
         </div>
-        <div className={styles.projects__outerDiv}>
+        <div data-aos="zoom-in-up" className={styles.projects__outerDiv}>
           <div className={styles.projects__maindiv}>
             <div className={styles.projects__imgouterdiv}>
               <img src="healthkart.png" alt="HealthMart" className={styles.projects__divimage} />
