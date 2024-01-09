@@ -1,25 +1,26 @@
 
-import { Box } from '@chakra-ui/react';
 import './App.css';
-import HolePage from './Pages/HolePage';
-import Navbar from './Pages/Navbar';
-import Particle from './Components/Particle';
+import About from './components/about/About';
+import Contact from './components/contact/Contact';
+import Home from './components/home/Home';
+import Navbar from './components/Navbar/Navbar';
+import Project from './components/Projects/Project';
+import Skills from './components/skills/Skills';
+import Stats from './components/stats/Stats';
 
 function App() {
   return (
-    <>
-    <Particle/>
-    <div>
-    <Box  w="100%" >
-      <Navbar  />
-     <HolePage />
-     <video autoPlay loop muted>
-              <source src="" type="video/mp4" />
-            </video>
-    </Box>
+    <div className="App">
+      <Navbar />
+      <main>
+        <Home />
+        <About />
+        <Skills />
+        <Project />
+        <Stats />
+        <Contact />
+      </main>
     </div>
-    </>
-    
   );
 }
 

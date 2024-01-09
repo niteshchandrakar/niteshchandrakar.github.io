@@ -6,6 +6,7 @@
   "dependencies": {
     "@chakra-ui/icons": "^2.0.14",
     "@chakra-ui/react": "^2.4.4",
+    "@emailjs/browser": "^3.11.0",
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
     "@testing-library/jest-dom": "^5.16.5",
@@ -13,6 +14,7 @@
     "@testing-library/user-event": "^13.5.0",
     "aos": "^2.3.4",
     "axios": "^1.2.1",
+    "emailjs": "^4.0.3",
     "framer-motion": "^7.0.0",
     "gh-pages": "^4.0.0",
     "github-calendar": "^2.3.1",

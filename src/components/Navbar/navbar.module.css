@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+#navbar__fixeddiv{
+    position: fixed;
+    top: 0%;
+    z-index: 3;
+    left: 0%;
+    right: 0%;
+}
+
+#navbar__maindiv{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   background-color: white;
+}
+
+.navbar__logodiv{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar__logo{
+    font-family: 'Great Vibes', cursive;
+    font-size: 32px;
+    margin: 6px;
+    margin-top: 12px;
+}
+
+.navbar__list{
+    display: flex;
+    gap: 2.8rem;
+    font-weight: 500;
+}
+
+.navbar__list a{
+    text-decoration: none;
+    color: rgb(66, 65, 65);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.navbar__list a:hover{
+    color: black;
+    transition-duration: 0.3s;
+}
+
+.navbar__icon{
+    display: none;
+}
+
+.navbar__hemberger{
+    display: none;
+}
+
+.navbar__cross_icon{
+    display: none;
+}
+
+@media screen and (max-width:980px) {
+    .navbar__hemberger{
+        display: block;
+    }
+
+    .navbar__icon{
+        display: block;
+    }
+
+    .navbar__list{
+        position: absolute;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        background-color: white;
+        width: 100%;
+        top: -400%;
+    }
+
+    .navbar__maindiv{
+        position: relative;
+        top: 0%;
+    }
+    .navbar__logodiv{
+        width: 78%;
+        display: flex;
+        justify-content: space-around;
+        font-size: 2.74rem;
+    }
+
+    .navbar__cross_icon{
+        display: block;
+        font-size: 1.8rem;
+        float: right;
+    }
+
+    .navbar__showlist{
+        top: 20%;
+        z-index: 5;
+        transition-duration: 1s;
+    }
+}

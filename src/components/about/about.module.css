@@ -1,0 +1,134 @@
+.about__section{
+    position: relative;
+    top: 4rem;
+    background: linear-gradient(-45deg, white 30%, #0a3433 333%);
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.about_heading{
+    text-align: center;
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+
+.about__description{
+    text-align: center;
+    color: rgb(66, 65, 65);
+}
+
+.about__greet{
+    position: relative;
+    width: 50%;
+    margin: auto;
+    color: white;
+    -webkit-text-stroke: 0.1vw black;
+   font-size: var(--h1-font-size);
+   margin-bottom: 20px;
+}
+
+.about__greet::before{
+    content: "Hey...";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    color: grey;
+    -webkit-text-stroke: 0vw black;
+    border-right: 2px solid black;
+    overflow: hidden;
+    animation: hey_animate 6s linear infinite;
+}
+
+@keyframes hey_animate{
+    0%,10%,100%{
+        width: 0;
+    }
+    70%,90%{
+        width: 100%;
+    }
+}
+
+.about__data_div{
+    display: flex;
+    width: 75%;
+    margin: auto;
+   gap: 4rem;
+   justify-content: space-between;
+   align-items: center;
+   margin-top: 3rem;
+}
+
+.about__data_div>img{
+    width: 40%;
+
+}
+
+.about__heyAnimation{
+    display: flex;
+    width: 30%;
+
+}
+
+.about__heyAnimation>h1:nth-child(1){
+    font-size: 2rem;
+}
+
+.about__data_seconddiv h3 , .about__data_seconddiv p{
+    margin-bottom: 1.5rem;
+}
+
+.about__sociallink{
+    width: 25%;
+}
+
+.about__sociallink>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about__sociallink>div>a {
+    color: rgb(66, 65, 65);
+    font-size: 1.4rem;
+}
+
+.about__sociallink>div>a:hover {
+    color: black;
+    transition-duration: 0.3s;
+}
+
+@media screen and (max-width:990px) {
+    .about__heyAnimation{
+        width: 60%;
+    }
+    .about__sociallink{
+        width: 45%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .about__data_div{
+       flex-direction: column;
+    }
+    .about__heyAnimation{
+        width: 40%;
+    }
+    .about__sociallink{
+        width: 35%;
+    }
+    .about__data_div>img{
+        width: 70%;
+    
+    }
+}
+
+@media screen and (max-width:550px) {
+    .about__heyAnimation{
+        width: 60%;
+    }
+    .about__sociallink{
+        width: 45%;
+    }
+}

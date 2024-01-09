@@ -1,15 +1,20 @@
-body::-webkit-scrollbar {
-  width: 0.3em;
-  height: 50px;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
- 
-body::-webkit-scrollbar-track {
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  background-color:#f1f1f1;
+
+html{
+  scroll-behavior: smooth;
 }
- 
-body::-webkit-scrollbar-thumb {
-  background-color: #d11243;
-  outline: 1px solid slategrey;
+
+.App {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  
 }
 
