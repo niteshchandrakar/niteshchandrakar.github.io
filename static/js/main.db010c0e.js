@@ -20375,7 +20375,7 @@
                         }),
                         (0, f.jsx)("p", {
                           children:
-                            "A self-motivated and ambitious Full Stack Web Developer with proficiency in JavaScript and React. Problem-solving mindset and the ability to perform well in collaboration. 1200+ hours of coding and curious to Learn about emerging web technologies. Looking forward to working as an accountable and competent employee in an exciting tech company.",
+                            "Skilled Front-End Developer with 1 year of professional experience at BookingJini, specializing in React and Next.js, with additional hands-on exposure to React Native. I excel in crafting user-friendly, responsive websites and applications using modern front-end technologies.I am passionate about delivering seamless, engaging user experiences that not only captivate users but also drive business growth. My expertise in React and Next.js, combined with a growing proficiency in React Native, enables me to build high-performance applications tailored to meet diverse needs.Let’s collaborate to bring innovative ideas to life and create impactful digital solutions!",
                         }),
                         (0, f.jsx)("div", {
                           "data-aos": "zoom-in-up",
@@ -20669,7 +20669,7 @@
                           (0, f.jsxs)("a", {
                             onClick: function () {
                               return window.open(
-                                "https://drive.google.com/file/d/1v8Bmrw4mXoi9GFJzTbOoPYdqoRL0es0-/view?usp=sharing"
+                                "https://drive.google.com/file/d/1j9u09Oj9NgXfF-Q8kSBzBDFKABMf72vP/view?usp=sharing"
                               );
                             },
                             href: "Nitesh_Chandrakar_Resume.pdf",
@@ -20901,7 +20901,7 @@
                         (0, f.jsxs)("a", {
                           onClick: function () {
                             return window.open(
-                              "https://drive.google.com/file/d/1v8Bmrw4mXoi9GFJzTbOoPYdqoRL0es0-/view?usp=sharing"
+                              "https://drive.google.com/file/d/1j9u09Oj9NgXfF-Q8kSBzBDFKABMf72vP/view?usp=sharing"
                             );
                           },
                           href: "Nitesh_Chandrakar_Resume.pdf",
