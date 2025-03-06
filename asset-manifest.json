@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.d033c102.css",
-    "main.js": "/static/js/main.db010c0e.js",
+    "main.css": "/static/css/main.18383698.css",
+    "main.js": "/static/js/main.a97641fa.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/profile.png": "/static/media/profile.41d947fcd7f0c3ef455c.png",
     "static/media/OpenAI.webp": "/static/media/OpenAI.a2379f09e877a16c084a.webp",
@@ -17,15 +17,15 @@
     "static/media/chakra.png": "/static/media/chakra.0719bee98cb0c0b83aeb.png",
     "static/media/expressimg.png": "/static/media/expressimg.551b076d3a202df33a0c.png",
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
-    "static/media/redux-seeklogo.svg": "/static/media/redux-seeklogo.a95675408ae17c456965e2f09376c31a.svg",
+    "static/media/redux-seeklogo.svg": "/static/media/redux-seeklogo.546485b8d93d3edf5b362709cc69afc5.svg",
     "static/media/mongodb-seeklogo.svg": "/static/media/mongodb-seeklogo.1aca075d5cce0819fea7ea0902d94ce4.svg",
     "index.html": "/index.html",
-    "main.d033c102.css.map": "/static/css/main.d033c102.css.map",
-    "main.db010c0e.js.map": "/static/js/main.db010c0e.js.map",
+    "main.18383698.css.map": "/static/css/main.18383698.css.map",
+    "main.a97641fa.js.map": "/static/js/main.a97641fa.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d033c102.css",
-    "static/js/main.db010c0e.js"
+    "static/css/main.18383698.css",
+    "static/js/main.a97641fa.js"
   ]
 }
